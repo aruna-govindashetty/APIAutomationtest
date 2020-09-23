@@ -4,18 +4,19 @@ Solution contains:
 1.Helper Folder- To generate hmac signature and bearer token
 2.Request Folder- Helper methods for HttpClient and RestClient
 3.Model Folder- Model of the Json payload
-4.CreateOrderEndPoint Folder- Contains test methods to create order and instruction using HttpClient
+4.CreateOrderEndPoint Folder- Contains test methods to create order and instruction using HttpClient and
 Contains test methods to create order and instruction using RestClient
 
 For running tests-
 VSTest.Console.exe is the command-line tool to run tests. we can specify several options in any order on the command line.
 More Information can be found here- https://docs.microsoft.com/en-us/visualstudio/test/vstest-console-options?view=vs-2019
+
 For creating test report-
 A test logger is a test platform extension to control reporting of test results. It can perform tasks when a test run message, individual test results or the test run completion events are reported by the test platform.
 More Information can be found here- https://github.com/Microsoft/vstest-docs/blob/master/docs/report.md#1-console-logger
 
 NugetPackages used-
-MSTest 
+MSTest and
 Restsharp
 
 Syntax to run the tests from the command prompt-
