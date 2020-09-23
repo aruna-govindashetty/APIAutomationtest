@@ -23,7 +23,8 @@ Syntax to run the tests from the command prompt-
 "path of vstest.console.exe" "project.dll" /Logger:html
 Example:
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" "C:\Users\Aruna\source\repos\Test\Test\bin\Debug\Test.dll" /Logger:html
-Test results will be created in the folder shown in the command prompt after executing the tests. 
+
+Reporting-Test results will be created in the folder shown in the command prompt after executing the tests. 
 
 Note: I was not able to acess any Order API's through swagger even though I generated Hmac signature, I could not get bearer token and was getting Unauthorized error.
 The tests will fail when run through command prompt because of the above issue.
